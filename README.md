@@ -29,3 +29,7 @@ type in chrome 127.0.0.1:8000
 ------------------------------------------
 after model creation
 python manage.py makemigrations profiles_api
+python manage.py migrate
+
+------------------------------------------
+python manage.py createsuperuser
